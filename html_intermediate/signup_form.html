@@ -62,8 +62,16 @@
         <h1>Sign Up</h1>
         <form action="#" method="post">
             <div class="form-group">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-group">
+                <label for="middlename">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename">
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
@@ -71,7 +79,7 @@
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
+                <input type="password" id="password" name="password" pattern="!@a#$%5^&*">
                 <small>Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character (!@#$%^&*).</small>
             </div>
             <button type="submit">Sign Up</button>
